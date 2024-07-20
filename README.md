@@ -41,5 +41,7 @@ TextUtils is a sophisticated text manipulation application designed to streamlin
 To install and run TextUtils, follow these steps:
 
 1. **Clone the repository:**
-   ```bash
-  [ git clone https://github.com/your-username/textutils.git](https://github.com/Akashkumar231/TextUtils)
+  git clone https://github.com/your-username/textutils.git
+
+
+  (https://github.com/Akashkumar231/TextUtils)
