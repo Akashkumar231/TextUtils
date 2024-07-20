@@ -87,8 +87,9 @@ export default function TextForm({ mode, heading, showAlert }) {
                 <p>{wordCount} words and {charCount} characters</p>
                 <p>{(0.08 * wordCount).toFixed(2)} Minutes Read</p>
             </div>
-            <h2 className="preview container" style={{ color: mode === 'dark' ? 'white' : 'black' }}>Preview of the Text</h2>
-            <p className="previewText mx-3" style={{ color: mode === 'dark' ? 'white' : 'black' }}>{preview}</p>
+            <div><h2 className="preview container" style={{ color: mode === 'dark' ? 'white' : 'black' }}>Preview of the Text</h2>
+                <p className="previewText mx-3" style={{ color: mode === 'dark' ? 'white' : 'black' }}>{preview}</p>
+            </div>
         </>
     );
 }
